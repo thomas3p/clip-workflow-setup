@@ -7,7 +7,7 @@ import tempfile
 import zipfile
 
 ROOT_FILES = (
-    "SKILL.md", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md",
+    "SKILL.md", "README.md", "INSTALL.md", "LICENSE", "THIRD_PARTY_NOTICES.md",
     "INSTALL-WINDOWS.cmd", "install.py", "package_release.py",
     ".gitignore", ".gitattributes",
 )
