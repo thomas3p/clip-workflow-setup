@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clip Workflow Setup"
+  short_description: "วางระบบทำคลิปด้วย Codex หรือ Claude และ CapCut"
+  default_prompt: "ใช้ $clip-workflow-setup จัดระบบอ่านฟุตเทจ เขียนบท ลงเสียง และเตรียมคลิปที่แก้ต่อได้จากไฟล์ของฉัน"

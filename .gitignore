@@ -1,0 +1,23 @@
+# Official third-party snapshot is local-only (upstream says UNLICENSED).
+/vendor/CapCut/
+/dist/
+/local/
+/LOCAL_SETUP_STATUS.json
+/answers.json
+/clip-workspace.json
+/.agents/
+/.claude/
+/.codex/
+.env
+.env.*
+!.env.example
+*credentials*.json
+*token*.json
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+*.bak
+*.log
