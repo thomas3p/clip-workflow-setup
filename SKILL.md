@@ -5,6 +5,8 @@ description: วางระบบและทำคลิปต่อเนื�
 
 # ระบบทำคลิปขายสินค้า: Codex / Claude Code + CapCut
 
+ถ้าขอติดตั้งจาก GitHub ให้อ่าน `INSTALL.md` ใน repository ต้นทางและเลือกขั้นตอนของโฮสต์ ใน Claude Code ใช้ [adapter](references/claude-capcut-adapter.md) แปลง source bundle ของ Codex เป็น Claude skills และ HTTP MCP ไม่เรียก helper OAuth ของ Codexใน Claude และไม่ใช้เพียง config เป็นหลักฐานว่าเชื่อมบัญชีแล้ว
+
 สร้างระบบของแบรนด์ผู้ใช้เอง แล้วทำงานตั้งแต่คอนเซปต์จนได้แพ็กตัดต่อหรือคลิปตามขอบเขตที่ได้รับมอบหมาย ตอบภาษาไทยหรือภาษาที่ผู้ใช้ใช้ คำว่า **เอเจนต์** หมายถึง Codex หรือ Claude Code ที่กำลังทำงานอยู่
 
 งานสอน/Screen Record ใช้ `content_type: "general"` ใน answers.json และใช้ชื่อช่อง/โปรเจกต์แทนชื่อแบรนด์ เก็บขั้นตอนที่ตรวจได้ รุ่นซอฟต์แวร์ และแหล่งอ้างอิงใน `brand/content-facts.md` (`source_of_truth` ใน manifest); ไม่สัมภาษณ์ฉลาก/สินค้า/CTA ขายของเมื่อไม่เกี่ยวข้อง คำว่า products.md ในขั้นตอนร่วมให้หมายถึง source_of_truth ของงานนั้น ตัดหน้าปิดท้าย/สินค้าเดียวตามโจทย์ได้ รักษาพาธส่วนตัว OAuth URL และข้อมูลบัญชีใน Screen Record ด้วยการครอป/ปิดทับก่อนเผยแพร่
